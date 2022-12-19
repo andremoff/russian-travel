@@ -1,0 +1,32 @@
+.cover__background {
+    background-image: url(../../../images/cover-background.jpg);
+    background-size: cover;
+    background-position: center;
+    max-width: 1184px;
+    min-width: 320px;
+    min-height: 200px;
+    max-height: 740px;
+    width: 100%;
+    height: calc(110vw * (9/16));
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+}
+
+.cover__background:after {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  opacity: 0.3;
+  background: rgba(42, 44, 47, 1);
+  transition: all 1s;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.cover__background:hover:after {
+  opacity: 0.8;
+}

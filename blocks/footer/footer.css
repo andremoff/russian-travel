@@ -1,0 +1,32 @@
+.footer  {
+    margin-top: 32px;
+    margin-left: 16px;
+    margin-right: 16px;
+    display: grid;
+    grid-template-rows: min-content min-content;
+    grid-template-columns: max-content;
+    align-content: end;
+}
+
+@media screen and (min-width: 740px) {
+  .footer {
+    margin-top: 88px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    margin-left: 24px;
+    margin-right: 24px;
+    }
+  }
+
+@media screen and (min-width: 1024px) {
+  .footer {
+    margin-left: 48px;
+    margin-right: 48px;
+    margin-top: 92px;
+  }
+}

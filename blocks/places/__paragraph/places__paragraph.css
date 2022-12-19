@@ -1,0 +1,32 @@
+.places__paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26.08px;
+    color: #FFFFFF;
+    text-align: start;
+    margin-top: 0;
+    min-width: 288px;
+    margin-bottom: 25px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.places__paragraph:last-child {
+    margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .places__paragraph {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+
+@media screen and (min-width: 1024px) {
+  .places__paragraph {
+    margin-bottom: 26px;
+    font-size: 18px;
+    line-height: 29.34px;
+  }
+}

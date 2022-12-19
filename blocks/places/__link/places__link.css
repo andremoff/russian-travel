@@ -1,0 +1,14 @@
+.places__link {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-align: start;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.places__link:hover {
+    color: #AAAAAA;
+    transition: all 1s;
+}

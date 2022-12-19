@@ -1,0 +1,28 @@
+.header__lang-link  {
+    font-weight:400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
+    width: 22px;
+    height: 20px;
+    margin-right: 0;
+    margin-left: 18px;
+    margin-top: 14px;
+    margin-bottom: 6px;
+    text-decoration: none;
+}
+
+.header__lang-link:hover {
+  color: #AAAAAA;
+  transition: all 1s;
+}
+
+@media screen and (min-width: 768px) {
+.header__lang-link {
+      font-size: 24px;
+      line-height: 28px;
+      width: 30px;
+      height: 28px;
+      margin-top: 18px;
+    }
+}
