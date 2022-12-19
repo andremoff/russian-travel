@@ -1,4 +1,4 @@
-![Russian-travel](https://user-images.githubusercontent.com/117744283/208449105-f92596ae-d357-464e-b5a7-83147bb1c4e3.PNG)
+![Russian-travel](https://user-images.githubusercontent.com/117744283/208452941-34ba8663-a449-4316-b0ce-0d689453af3f.PNG)
 
 # Проект "Путешествие по России"
 
@@ -19,13 +19,13 @@
 * Структура файлов БЭМ и БЭМ Nested.
 * Медиазапросов и брейкпоинты (@media, brakepoints) метод позволяющий установить необходимые значения для перехода сайта под разные устройства и разрешения экрана.
 * Реализованы "маркеры" для ссылок на странице "при наведении" он же (:hover), с едиными параметрами opacity и transition (Блоки header, places, cover, footer).
-* Проект был собран по методике Mobile first.
+* Проект был собран по методике "Mobile first".
 
 ## Автор
 
 * **Андрей Дремов** - *Проектная работа* - [andremoff](https://github.com/andremoff)
 
-## Сслыка на сайт
+## Ссылка на сайт
 https://andremoff.github.io/russian-travel/
 
 ## Благодарности
